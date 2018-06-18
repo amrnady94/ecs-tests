@@ -80,14 +80,15 @@ public class MTax implements Constant
 
 	return errorList;
 
-	// else {
-	// errorList.add("El documento no tiene tasas");
-	// }
 
 	// It's better to make your playground branch and make comments at the end of
 	// your method
 	// when you merge to the master, you could remove them if you don't need them
 	// anymore.
+
+	// else {
+	// errorList.add("El documento no tiene tasas");
+	// }
 
 	// List<String> taxCategoryList = MInfoTaxCategory.getTaxCategoryStringList();
 
