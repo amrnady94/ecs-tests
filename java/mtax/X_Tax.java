@@ -3,8 +3,9 @@ import java.util.Date;
 import javax.persistence.Id;
 import javax.persistence.Version;
 
-public class X_Tax {
-    
+public class X_Tax
+{
+
     private Object id;
     private BigDecimal base;
     private String tax;
@@ -20,119 +21,148 @@ public class X_Tax {
     private Date updated;
     private String version;
 
-    public X_Tax() {
+    public X_Tax()
+    {
     }
 
-    public Object getId() {
-        return id;
+    public Object getId()
+    {
+	return id;
     }
 
-    public void setId(Object id) {
-        this.id = id;
+    public void setId(Object id)
+    {
+	this.id = id;
     }
 
-    public BigDecimal getBase() {
-        return base;
+    public BigDecimal getBase()
+    {
+	return base;
     }
 
-    public void setBase(BigDecimal base) {
-        this.base = base;
+    public void setBase(BigDecimal base)
+    {
+	this.base = base;
     }
 
-    public String getTax() {
-        return tax;
+    public String getTax()
+    {
+	return tax;
     }
 
-    public void setTax(String tax) {
-        this.tax = tax;
+    public void setTax(String tax)
+    {
+	this.tax = tax;
     }
 
-    public String getTypeFactor() {
-        return typeFactor;
+    public String getTypeFactor()
+    {
+	return typeFactor;
     }
 
-    public void setTypeFactor(String typeFactor) {
-        this.typeFactor = typeFactor;
+    public void setTypeFactor(String typeFactor)
+    {
+	this.typeFactor = typeFactor;
     }
 
-    public BigDecimal getTasaOCuota() {
-        return tasaOCuota;
+    public BigDecimal getTasaOCuota()
+    {
+	return tasaOCuota;
     }
 
-    public void setTasaOCuota(BigDecimal tasaOCuota) {
-        this.tasaOCuota = tasaOCuota;
+    public void setTasaOCuota(BigDecimal tasaOCuota)
+    {
+	this.tasaOCuota = tasaOCuota;
     }
 
-    public BigDecimal getAmount() {
-        return amount;
+    public BigDecimal getAmount()
+    {
+	return amount;
     }
 
-    public void setAmount(BigDecimal amount) {
-        this.amount = amount;
+    public void setAmount(BigDecimal amount)
+    {
+	this.amount = amount;
     }
 
-    public boolean isTrasladado() {
-        return trasladado;
+    public boolean isTrasladado()
+    {
+	return trasladado;
     }
 
-    public void setTrasladado(boolean trasladado) {
-        this.trasladado = trasladado;
-    }
-    
-    public boolean isLocal() {
-        return local;
+    public void setTrasladado(boolean trasladado)
+    {
+	this.trasladado = trasladado;
     }
 
-    public void setLocal(boolean local) {
-        this.local = local;
+    public boolean isLocal()
+    {
+	return local;
     }
 
-    public boolean isActive() {
-        return active;
+    public void setLocal(boolean local)
+    {
+	this.local = local;
     }
 
-    public void setActive(boolean active) {
-        this.active = active;
+    public boolean isActive()
+    {
+	return active;
     }
 
-    public String getCreatedBy() {
-        return createdBy;
+    public void setActive(boolean active)
+    {
+	this.active = active;
     }
 
-    public void setCreatedBy(String createdBy) {
-        this.createdBy = createdBy;
+    public String getCreatedBy()
+    {
+	return createdBy;
     }
 
-    public String getUpdatedBy() {
-        return updatedBy;
+    public void setCreatedBy(String createdBy)
+    {
+	this.createdBy = createdBy;
     }
 
-    public void setUpdatedBy(String updatedBy) {
-        this.updatedBy = updatedBy;
+    public String getUpdatedBy()
+    {
+	return updatedBy;
     }
 
-    public Date getCreated() {
-        return created;
+    public void setUpdatedBy(String updatedBy)
+    {
+	this.updatedBy = updatedBy;
     }
 
-    public void setCreated(Date created) {
-        this.created = created;
+    public Date getCreated()
+    {
+	return created;
     }
 
-    public Date getUpdated() {
-        return updated;
+    public void setCreated(Date created)
+    {
+	this.created = created;
     }
 
-    public void setUpdated(Date updated) {
-        this.updated = updated;
+    public Date getUpdated()
+    {
+	return updated;
     }
 
-    public String getVersion() {
-        return version;
+    public void setUpdated(Date updated)
+    {
+	this.updated = updated;
     }
 
-    public void setVersion(String version) {
-        this.version = version;
+    public String getVersion()
+    {
+	return version;
     }
-    
+
+    public void setVersion(String version)
+    {
+	this.version = version;
+    }
+
 }
